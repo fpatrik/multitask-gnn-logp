@@ -1,0 +1,5 @@
+sklearn
+pandas
+numpy
+rdkit-pypi
+torch
