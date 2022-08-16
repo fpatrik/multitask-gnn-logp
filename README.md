@@ -1,13 +1,6 @@
-# Datasets
+# How to use
 
-## BioByte Starlist
-
-266 compounds. Mentioned in "Calculation of molecular lipophilicity: State-of-the-art and comparison of log P methods on more than 96,000 compounds.". From ochem.eu.
-
-## Martel
-
-707 compounds. "Large, chemically diverse dataset of logP measurements for benchmarking studies." From ochem.eu.
-
-## Opera Dataset
-
-Downloaded from https://gaftp.epa.gov/COMPTOX/NCCT_Publication_Data/Williams_A/Opera_Model_Paper/.
+1. `python3 -m venv env`
+2. `pip install -r requirements_part1.txt`
+3. `pip install -r requirements_part2.txt -f https://data.pyg.org/whl/torch-1.12.0+cpu.html`
+4. See main of `src/ensemble.py`

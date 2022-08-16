@@ -1,15 +1,13 @@
-from gcn import GCN
-
 import json
-import numpy as np
-import pandas as pd
-from rdkit import Chem
-from sklearn.model_selection import train_test_split
 import torch
 from torch import nn
 import torch.nn.functional as F
+import numpy as np
+import pandas as pd
 
-from torch_geometric.nn import GCNConv, global_add_pool
+from gcn import GCN
+from rdkit import Chem
+from sklearn.model_selection import train_test_split
 from torch_geometric.data import Data
 from torch_geometric.loader import DataLoader
 
